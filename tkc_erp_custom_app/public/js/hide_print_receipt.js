@@ -13,9 +13,9 @@ $(document).on('app_ready', function() {
                 // printBtn.hide();
                 
                 // For role restriction later:
-                if (frappe.user_roles.includes('Receptionist')) {
+                // if (frappe.user_roles.includes('Receptionist')) {
                     printBtn.hide();
-                }
+                // }
             }
         }
     });
