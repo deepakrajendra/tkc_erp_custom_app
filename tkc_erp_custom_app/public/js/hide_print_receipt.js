@@ -13,7 +13,7 @@ $(document).on('app_ready', function() {
                 // printBtn.hide();
                 
                 // For role restriction later:
-                if (frappe.user_roles.includes('receptionist')) {
+                if (frappe.user_roles.includes('Receptionist')) {
                     printBtn.hide();
                 }
             }
